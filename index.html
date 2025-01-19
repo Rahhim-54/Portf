@@ -13,13 +13,11 @@
         nav{
             
             display:flex;
-            align-items:inline;
-            display: inline;
-            justify-content: space-around;
+            margin-left:500px;
+            gap:5px;
             box-shadow: 1px 1px 1px 1px white;
-            margin-left:850px;
-            margin-top:0px;
             
+          
         }
         img{
             border-radius:50%;
@@ -61,9 +59,6 @@
     
         
        }
-       h2{
-        display: inline-block;
-       }
     #typing{
         animation: blink 1.3s infinite;
     
@@ -74,20 +69,27 @@
             opacity: 0;
         }
     }
+    .top
+    {
+        display:flex;
+        justify-content:space between;
+        align-items:center;
+        
+    }
     </style>
 </head>
 <body>
    
     <fieldset>
-        <h2><span style="color:rgb(231, 19, 19);text-decoration:underline; text-decoration-color:black;">Port</span style="color:white;">&nbsp;<span style="color:white;">Folio</span></h2>
-   <nav>
-    <a href="portfolio.html">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-    <a href="about.html">About&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-    <a href=" ">Skills&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-    <a href=" ">Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+        <div class="top"><h2><span style="color:rgb(231, 19, 19);text-decoration:underline; text-decoration-color:black;">Port</span style="color:white;">&nbsp;<span style="color:white;">Folio</span></h2>
+   <nav><br>
+    <a href="portfolio.html">Home</a>
+    <a href="about.html">About</a>
+    <a href=" ">Skills</a>
+    <a href=" ">Projects</a>
     <a href="contact.html">Contact</a>
 
-    </nav><br>
+    </nav></div>
     <img src="rahim.jpg" align="right"><br><br>
     <p style="color:white; font-size:11px;">-My  Name</p><strong id="typing" style="color:rgb(236, 62, 62); font-size: 22px;"><span style="color:white">Sk &nbsp;</span>Rahim</strong>
 
