@@ -1,0 +1,40 @@
+#con {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+h3 {
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bolder;
+}
+#me{
+    color:aqua;
+}
+#c{
+    color:white;
+    font-family: Arial, sans-serif;
+}
+#submit{
+    text-align:center;
+}
+input{
+    border-radius:7px transparent;
+    height:25px;
+    
+    
+}
+#s{
+    background-color:rgb(169, 166, 166);
+}
+button{
+    border-radius: 20px;
+   background-color:aqua ;
+   height:25px;
+   font-weight:bolder;
+
+}
