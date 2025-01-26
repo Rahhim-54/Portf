@@ -5,115 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
     <style>
-        a{
-            text-decoration: none;
-            font-weight:bolder;
-            color:white;
-        }
-        nav{
-            
-            display:flex;
-            gap:15px;
-        }
-        img{
-            border-radius:50%;
-            width:300px;
-            height:300px;
-        }
-        body{
-            background:black;
-        }
-        #anime{
-            animation:mark 10s linear infinite; 
-        }
-        @keyframes mark{
-            from{
-                transform:translateX(-100%);
-            }
-            to{
-                transform:translateX(100%);
-            }
-        }
-        #anime:hover{
-            animation-play-state:paused;
-        }
-       header{
-        font-weight:bolder;
-        animation:my 5s linear infinite ;
         
-       }
-       @keyframes my{
-        0%{
-            color:rgb(32, 61, 224);
-        }
-        88%{
-            color:rgb(187, 34, 167);
-        }
-       }
-       fieldset{
-        border:4px solid white;
     
-        
-       }
-    #typing{
-        animation: blink 1.3s infinite;
-    
-    }
-    
-    @keyframes blink{
-        50%{
-            opacity: 0;
-        }
-    }
-    .top
-    {
-        display:flex;
-        justify-content:space-between;
-        align-items:center;
-        
-    }
     </style>
+     <link rel="stylesheet" href="home.css" type="text/css">
+     <link rel="stylesheet" href="about.css" type="text/css">
+     <link rel="stylesheet" href="contact.css" type="text/css">
+     
+
 </head>
 <body>
    
-    <fieldset>
-        <div class="top"><h2><span style="color:rgb(231, 19, 19);text-decoration:underline; text-decoration-color:black;">Port</span style="color:white;">&nbsp;<span style="color:white;">Folio</span></h2>
-   <nav><br>
-    <a href="portfolio.html">Home</a>
-    <a href="about.html">About</a>
+    <section id="fix">
+        <h2><span id="port">Port</span style="color:white;">&nbsp;<span id="folio">Folio</span></h2>
+   <nav>
+    <a href="">Home</a>
+    <a href="#about">About</a>
     <a href=" ">Skills</a>
     <a href=" ">Projects</a>
-    <a href="contact.html">Contact</a>
+    <a href="#contact">Contact</a>
 
-    </nav></div>
-    <img src="rahim.jpg" align="right"><br><br>
-    <p style="color:white; font-size:11px;">-My  Name</p><strong id="typing" style="color:rgb(236, 62, 62); font-size: 22px;"><span style="color:white">Sk &nbsp;</span>Rahim</strong>
+    
+    </section>
+    <br>
+    <img src="rahim.html" align="right"><br><br>
+    <p id="p1">-My  Name</p><strong id="typing" ><span id="span">&nbsp;&nbsp;Sk &nbsp;</span>Rahim</strong>
 
-    <p style="color:white; font-size:14px;">-As a passionate web designer, 
+    <p id="p2"><blockquote> -A passionate web designer, 
         I focus on creating visually appealing, user-friendly,<br><br>
     and responsive websites. With a deep understanding of modern web design <br><br>principles 
     I strive to craft intuitive interfaces that enhance user 
     experiences.<br><br>I combine creativity with functionality to ensure 
     every project meets<br><br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the client's vision and user needs.</p>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; the client's vision and user needs.</blockquote></p><br><br>
+   <!--<p id="anime">Thanks For Visting My Portfolio</p>-->
+    
 
+   <!--ABOUT NAVIGATION-->
 
+  <section id="about">
+
+    <p id="slide"><br><br>~ Hi, I'm Sk.Rahim Khadar Vali</p>
+    <div class="font">
+    <blockquote>I'm a web designer and front-end developer with a deep passion for creating clean <br><br>
+    user-friendly websites and applications. With a degree in computer science and over<br><br>
+    5 years of experience in the industry, I've had the opportunity to work with various <br><br>
+    teams to design and develop projects that not only meet user needs but also exceed business expectations.</blockquote><br>
+    
+    <blockquote><blockquote> expertise lies in HTML, CSS, JavaScript, and React, but I also prioritize <br><br>
+        collaboration and effective communication with clients to ensure <br><br>
+        the final product is aligned with their vision. I believe in the power of good design to solve problems <br>
+        <br>and I'm always eager to learn new technologies to enhance my skills.</blockquote></blockquote><br>
+    
+        <blockquote><blockquote><blockquote>
+        When I'm not coding, you can find me exploring nature, 
+        photography or learning about emerging web technologies. <br> <br>
+        If you'd like to discuss how we can work together
+                     feel free to contact me!<br></blockquote></blockqoute></blockqoute>
+        </div>
+    
+
+  </section>
+ <!--ABOUT NAVIGATION ENDING-->
+
+ 
+     <!--CONTACT NAVIGATION-->
 
     
-   <!--<p id="anime">Thanks For Visting My Portfolio</p>-->
-    </fieldset>
+        
+        <h3><span id="c">Contact</span> <span id="me">Me ?</span> </h3>
+        <section id="con">
+        
+            <form action="https://api.web3forms.com/submit" method="POST">
+    
+                <input type="hidden" name="access_key" value="7ec31af2-c569-4e68-bfe7-799f9f06c1e7">
+    
+    
+                
+                <input type="text" id="username" placeholder="Full Name" name="Username" required>
+    
+                <input type="text" id="mobile" placeholder="Mobile Number" name="Mobile" required><br><br>
+    
+                <input type="email" id="email" placeholder="Email Address" name="Email" required>
+    
+    
+                <input type="number" id="pin" placeholder="Roll Number" name="number" required><br><br>
+    
+                <textarea name="message" rows="10" cols="44" placeholder="Text Message...." required></textarea><br><br>
+    
+            </section>
+            <div id="con">
+                <button id="send">Send Message</button>
+            </div>
+            </form>
+        
+    
+     
+     <!--CONTACT NAVIGATION ENDING-->
     <script>
-const a ="Sk Rahim";
-let i=0;
-function typing(){
-if(i<a.length)
-{
-document.getElementById("type").innerHTML+=a.charAt(i);
-i++;
-setTimeout(type,100);
-}
-}
-type();
+
     </script>
 </body>
 </html>
