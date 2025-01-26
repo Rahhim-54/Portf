@@ -1,0 +1,31 @@
+p,
+blockquote {
+    color: white;
+    
+}
+.font{
+    font-size: 14px;;
+}
+body {
+    background-color: black;
+}
+
+#slide {
+    color: rgb(241, 154, 54);
+    font-size:22px;
+}
+#slide{
+
+animation: slide 2.3s ease-in-out;
+
+        }
+
+        @keyframes slide {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
