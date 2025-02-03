@@ -29,3 +29,19 @@ input {
     height: 25px;
 }
 
+
+
+button {
+    border-radius: 20px;
+    background-color: aqua;
+    height: 40px;
+    width:180px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#vh {
+    background-color:black;
+    background-size: cover;
+    height: 90vh;
+}
