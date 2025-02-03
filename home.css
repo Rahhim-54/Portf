@@ -1,28 +1,66 @@
 a{
     text-decoration: none;
     font-weight:bolder;
-    color:white;
-    
-    
+    color:white;    
+}
+.rahim {
+    width: 350px;
+    position: relative;
+    animation: subtleMove 3s infinite ease-in-out;
+  }
+
+  @keyframes subtleMove {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+body{
+    margin:0;
+    padding:0;
+   
+   width:100%;
+   overflow-x: hidden;
+}
+a:hover{
+    color:aqua;
 }
 nav{ 
     display:flex;
     gap:80px;
+    z-index:1000;
+   
 }
 #fix
 {
 display:flex;
 justify-content:space-between;
 align-items:center;
+position:fixed;
+background-color: black;
+z-index:400;
 
-
-
+}
+.bg{
+    background-color:black;
+   background-size: cover;
+   height:100vh;
+   
+}
+#fix h2{
+    margin-right: 829px;
 }
 img{
     border-radius:50%;
-    width:300px;
-    height:300px;
-    margin-right: 40px;
+    width:350px;
+    height:350px;
+    margin-right: 20px;
+    margin-top:82px;
 
 }
 #port{
@@ -30,21 +68,27 @@ img{
 }
 #folio{
     color:white;
+    
 }
 body{
     background:rgb(8, 8, 8);
 }
 strong{
-    color:rgb(236, 62, 62); font-size: 22px;
+    color:rgb(236, 62, 62);
+    font-size: 35px;
 }
 #p1{
-    color:white; font-size:11px;
+    color:white; 
+    font-size:16px;
 }
 #typing{
     color:red;
 }
 #p2{
-    color:white; font-size:14px;
+    color:white; 
+}
+#p22{
+    font-size:20px;
 }
 #span{
     color:white;
@@ -79,3 +123,4 @@ animation: blink 1.3s infinite;
     opacity: 0;
 }
 }
+
