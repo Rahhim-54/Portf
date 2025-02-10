@@ -1,102 +1,73 @@
 
+
 /* Mobile (below 768px) */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
     body {
         padding: 10px;
     }
 
     #fix {
-        flex-direction: column;
+        flex-direction: column;  /* Change to column for mobile screens */
         align-items: center;
         gap: 10px;
+        font-size: 8px;
+
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .rahim {
-        width: 120px;
-        height:120px;
-        margin-top: 20px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .bg {
+        font-size: 15px;
     }
 
     #slide {
-        font-size: 26px;
+        font-size: 15px;  /* Adjusted font size for smaller screens */
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-blockquote{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-}
-    
-.font{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    }
+
+    blockquote {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    /* Apply more responsive design for text containers */
+    .font {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+   
+
     .skills {
-        flex-direction: row;
+        flex-direction: column; 
+        height:70vh; /* Stack skills vertically for small screens */
     }
 
     .circle {
-        width: 100px;
-        height: 100px;
+        width: 40px;  /* Smaller size for mobile screens */
+        height: 40px;
     }
 
     .circle .inner {
-        width: 75px;
-        height: 75px;
+        width: 60px;  /* Adjust inner circle size for mobile */
+        height: 60px;
     }
 
     .project-list {
-        flex-direction: row;
-        height:60px;
-        gap: 10px;
+        flex-direction:row;  /* Stack projects vertically */
+      /* Let height adjust automatically */
+        gap:2px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       
     }
+
 
     button {
-        width: 140px;
-        font-size: 15px;
+        width: 100%;  /* Make buttons take full width on smaller screens */
+        font-size: 14px;  /* Reduce button font size */
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-
-
-
-/* Tablet (768px to 1024px) */
-@media only screen and (max-width: 1024px) {
-    nav {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .rahim {
-        width: 250px;
-    }
-
-    .skills {
-        flex-direction: column;
-    }
-
-    .circle {
-        width: 120px;
-        height: 120px;
-    }
-
-    .circle .inner {
-        width: 90px;
-        height: 90px;
-    }
-
-    .project-list {
-        flex-direction: column;
-        gap: 20px;
-        align-items: center;
     }
 }
-
-
-
-
-
-
 
 /* Global styles */
 body 
@@ -111,8 +82,9 @@ body
 }
 
 a {
+    font-size:smaller;
     text-decoration: none;
-    font-weight: bolder;
+
     color: white;
 }
 
@@ -133,17 +105,19 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top:70px;
 }
 
 /* Fixed Navigation */
 #fix {
     display: flex;
+    font-size:15px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     background-color: black;
     width: 100%;
-    padding: 15px;
+    padding: 10px;
     z-index: 1000;
     top: 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -159,7 +133,9 @@ nav {
     display: flex;
     gap: 30px;
 }
-
+#about{
+    font-size:10px;
+}
 nav a {
     color: white;
     font-size: 18px;
@@ -192,7 +168,7 @@ blockquote{
     border-radius: 50%;
     position: relative;
     animation: subtleMove 3s infinite ease-in-out;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 
 @keyframes subtleMove {
@@ -325,8 +301,8 @@ blockquote{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 240px;
-    height:37vh;
-    margin: 20px;
+    height:32vh;
+    margin: 10px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s;
@@ -348,6 +324,7 @@ blockquote{
 
 .project a:hover {
     background-color: #45a049;
+
 }
 
 /* Contact Section */
@@ -388,6 +365,4 @@ button {
 button:hover {
     background-color: #00d9ff;
 }
-
-/* Media Queries for Responsiveness */
 
