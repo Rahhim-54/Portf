@@ -1,11 +1,7 @@
-
-
-/* Mobile (below 768px) */
-@media only screen and (max-width: 480px){
+@media (max-width: 768px){
     body {
         padding: 10px;
     }
-
     #fix {
         flex-direction: column;  /* Change to column for mobile screens */
         align-items: center;
