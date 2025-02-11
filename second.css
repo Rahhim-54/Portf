@@ -1,7 +1,7 @@
 
     body {
         padding: 10px;
-    }@media (max-width: 480px){
+    }@media (max-width: 787px){
 
     #fix {
         flex-direction: column;  /* Change to column for mobile screens */
@@ -89,7 +89,7 @@ a:hover {
 }
 
 /* Header Section */
-        @media (max-width: 767px){
+      
 header {
     position: relative;
 }
@@ -362,4 +362,4 @@ button {
 button:hover {
     background-color: #00d9ff;
 }
-        }
+        
