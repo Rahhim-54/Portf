@@ -1,4 +1,5 @@
 
+
 /* Global styles */
 body 
     {
@@ -21,9 +22,81 @@ a {
 a:hover {
     color: aqua;
 }
+.rahim {
+    width: 250px;
+    height:250px;
+    border-radius: 50%;
+    position: relative;
+    animation: subtleMove 3s infinite ease-in-out;
+    margin-top: 100px;
+    margin-left:20px;
+}
+#fix {
+    display: flex;
+    font-size:15px;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    z-index: 1000;
+    top: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav {
+    display: flex;
+    gap: 13px;
+    margin-right: 20px;
+}
+#skills {
+    padding: 50px 20px;
+    background-color: rgb(8, 8, 8);
+    text-align: center;
+    height:100vh;
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 50px;
+    color: rgb(235, 19, 19);
+}
+.bg {
+    background-color: black;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:70px;
+}
+#folio{
+    color:rgb(236, 27, 27);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 20px;
+}
+#port{
+color:white;
+font-size: 20px;
+}
+.font blockquote {
+    font-size: 17px;
+}
+
+
+@media (min-width: 768px){ /*laptop*/
+
+
+
 
 /* Header Section */
-      
 header {
     position: relative;
 }
@@ -54,7 +127,8 @@ header {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+.font blockquote {
+    font-size: 20px;}
 #fix h2 {
     color: white;
     margin-left: 20px;
@@ -63,16 +137,21 @@ header {
 nav {
     display: flex;
     gap: 30px;
+    margin-right: 10px;
 }
-#about{
-    font-size:10px;
-}
+
 nav a {
     color: white;
     font-size: 18px;
     transition: color 0.3s;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+
+}
+/*ending laptop*/
+
+
 #typing{
     font-size: 28px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -150,7 +229,6 @@ blockquote{
 }
 
 .font blockquote {
-    font-size: 20px;
     line-height: 1.6;
     color: white;
     margin: 20px 0;
@@ -161,7 +239,7 @@ blockquote{
     padding: 50px 20px;
     background-color: rgb(8, 8, 8);
     text-align: center;
-    height:100vh;
+    height:85vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -169,7 +247,6 @@ blockquote{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-wrap: wrap;
     padding: 50px;
     color: rgb(235, 19, 19);
 }
@@ -295,5 +372,4 @@ button {
 
 button:hover {
     background-color: #00d9ff;
-}
-        
+}     
