@@ -1,5 +1,5 @@
 
-
+@media (max-width: 767px){
 /* Global styles */
 body 
     {
@@ -88,7 +88,7 @@ font-size: 20px;
 }
 .font blockquote {
     font-size: 17px;
-}
+}}
 
 
 @media (min-width: 768px){ /*laptop*/
