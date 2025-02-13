@@ -13,7 +13,7 @@ body
 }
 
 a {
-    font-size:smaller;
+    font-size:6px;
     text-decoration: none;
 
     color: white;
@@ -23,8 +23,8 @@ a:hover {
     color: aqua;
 }
 .rahim {
-    width: 250px;
-    height:250px;
+    width: 150px;
+    height:150px;
     border-radius: 50%;
     position: relative;
     animation: subtleMove 3s infinite ease-in-out;
@@ -33,7 +33,7 @@ a:hover {
 }
 #fix {
     display: flex;
-    font-size:15px;
+    font-size:6px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -70,7 +70,7 @@ flex-wrap: wrap;
 .bg {
     background-color: black;
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -80,17 +80,17 @@ flex-wrap: wrap;
 #folio{
     color:rgb(236, 27, 27);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size: 20px;
+font-size:10px;
 }
 #port{
 color:white;
-font-size: 20px;
+font-size:10px;
 }
 .font blockquote {
-    font-size: 17px;
+    font-size: 9px;
 }
 #typing{
-    font-size: 28px;
+    font-size: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #sk{
@@ -106,16 +106,20 @@ blockquote{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #p1{
+    font-size: 7px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#p2{
+    font-size: 8px;
 }
 /* Image Section */
 .rahim {
-    width: 300px;
-    height:300px;
+    width: 150px;
+    height:150px;
     border-radius: 50%;
     position: relative;
     animation: subtleMove 3s infinite ease-in-out;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 @keyframes subtleMove {
@@ -149,7 +153,7 @@ blockquote{
 
 #slide {
     color: rgb(241, 154, 54);
-    font-size: 30px;
+    font-size: 14px;
     animation: slide 2.3s ease-in-out;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -170,6 +174,11 @@ blockquote{
 }
 
 /* Skills Section */
+#skull{
+    font-size: 15px;
+    text-align: center;
+    color:aqua;
+}
 #skills {
     padding: 50px 20px;
     background-color: rgb(8, 8, 8);
@@ -217,7 +226,7 @@ blockquote{
 
 .skill-name {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 10px;
     font-weight: bold;
 }
 #projects {
@@ -230,8 +239,8 @@ blockquote{
 
 .projects h2 {
     text-align: center;
-    margin-bottom: 40px;
-    color:aqua;
+    color:#11e3d8;
+    font-size: 15px;
 }
 
 .project-list {
@@ -244,7 +253,7 @@ blockquote{
     background-color: rgb(190, 187, 187);
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 240px;
+    width: 220px;
     height:32vh;
     margin: 10px;
     padding: 20px;
@@ -258,18 +267,23 @@ blockquote{
 }
 
 .project a {
+    font-size:12px;
     text-decoration: none;
     color: rgb(12, 12, 12);
-    background-color: #14d61b;
+    background-color: #1cb621;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
+  
 }
 
 .project a:hover {
-    background-color: #45a049;
+    background-color: #10ef1b;
 
 }
+
+
+
 /* Contact Section */
 #vh {
     background-color: black;
@@ -283,6 +297,8 @@ blockquote{
 }
 .center{
     text-align: center;
+    font-size: 13px;
+    color:aqua;
 }
 #con {
     display: flex;
@@ -370,7 +386,9 @@ nav a {
 }
 
 
-
+#port{
+    font-size: 25px;
+}
 
 #typing{
     font-size: 28px;
@@ -381,6 +399,7 @@ nav a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 #folio{
+    font-size: 25px;
     color:rgb(236, 27, 27);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -391,6 +410,10 @@ blockquote{
 #p1{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#p2{
+    font-size:15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 /* Image Section */
 .rahim {
     width: 300px;
@@ -398,9 +421,14 @@ blockquote{
     border-radius: 50%;
     position: relative;
     animation: subtleMove 3s infinite ease-in-out;
-    margin-top: 100px;
+    margin-top: 20px;
 }
-
+.projects h2{
+    font-size:28px;
+}
+#skull{
+    font-size: 28px;
+}
 @keyframes subtleMove {
     0% {
         transform: translateY(0);
@@ -466,7 +494,7 @@ blockquote{
 .skills {
     display: flex;
     justify-content: space-around;
-   
+
     align-items: center;
     padding: 50px;
     color: rgb(235, 19, 19);
@@ -544,16 +572,18 @@ blockquote{
 }
 
 .project a {
+    font-size:15px;
     text-decoration: none;
     color: rgb(12, 12, 12);
-    background-color: #14d61b;
+    background-color: #1cb621;
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
+  
 }
 
 .project a:hover {
-    background-color: #45a049;
+    background-color: #10ef1b;
 
 }
 
@@ -597,7 +627,8 @@ button:hover {
     background-color: #00d9ff;
 }
 .center{
-    text-align:center;
-    
+    text-align: center;
+    font-size: 25px;
+    color:aqua;
 }
 }
