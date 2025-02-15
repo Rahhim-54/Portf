@@ -111,6 +111,7 @@ blockquote{
 }
 #p2{
     font-size: 13px;
+    padding:40px;
 }
 /* Image Section */
 .rahim {
@@ -243,7 +244,7 @@ blockquote{
     padding: 50px 20px;
     background-color: rgb(8, 8, 8);
     text-align: center;
-    height:100vh;
+    height:70vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -252,20 +253,20 @@ blockquote{
     flex-wrap:wrap;
     gap:20px;
     align-items: center;
-    padding: 50px;
+    padding: 55px;
     color: rgb(235, 19, 19);
 }
 
 .skill {
-
     text-align: center;
+    
  
 }
 
 .circle {
     width: 80px;
     height: 80px;
-    background: conic-gradient(#2a50e7 calc(var(--percent) * 1%), #e9e3e3 0);
+    background: conic-gradient(#2a50e7 calc(var(--percent) * 1%),grey 0);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -273,7 +274,7 @@ blockquote{
 }
 
 .circle .inner {
-    background-color: white;
+    background-color:white;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -331,6 +332,7 @@ button {
 button:hover {
     background-color: #00d9ff;
 }
+
 
 @media (min-width: 768px){ /*laptop*//*     *//**//*/*//*/*//*/*//*/*          *//*/*//*/*//*/*/ 
 
