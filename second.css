@@ -263,8 +263,8 @@ blockquote{
 }
 
 .circle {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     background: conic-gradient(#2a50e7 calc(var(--percent) * 1%), #e9e3e3 0);
     border-radius: 50%;
     display: flex;
@@ -275,8 +275,8 @@ blockquote{
 .circle .inner {
     background-color: white;
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    width: 60px;
+    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
