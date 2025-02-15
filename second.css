@@ -232,7 +232,7 @@ blockquote{
     padding: 50px 20px;
     background-color: rgb(15, 14, 14);
     text-align: center;
-    height:80vh;
+    height:100vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -289,7 +289,7 @@ blockquote{
     background-color: black;
     padding: 50px;
     text-align: center;
-    height: 80vh;
+    height: 90vh;
     margin-top: 60px;
 }
 #me{
